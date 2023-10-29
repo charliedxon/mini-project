@@ -134,12 +134,14 @@ const ReviewSection = () => {
                   Edit
                 </button>
               )}
-              <button
-                onClick={() => handleDeleteReview(review.id)}
-                className="bg-red-900 text-white p-2 rounded-md hover:bg-red-600 focus:outline-none ml-2 align-text-bottom"
-              >
-                Delete
-              </button>
+              {editReview === review ? null : (
+                <button
+                  onClick={() => handleDeleteReview(review.id)}
+                  className="bg-red-900 text-white p-2 rounded-md hover:bg-red-600 focus:outline-none ml-2 align-text-bottom"
+                >
+                  Delete
+                </button>
+              )}
             </div>
           </li>
         ))}
@@ -160,7 +162,7 @@ const ReviewSection = () => {
               </button>
               <button
                 onClick={confirmDelete}
-                className="bg-red-600 hover:bg-red-800 text-white px-4 py-2 rounded-md"
+                className="bg-red-600 hover-bg-red-800 text-white px-4 py-2 rounded-md"
               >
                 Confirm Delete
               </button>
