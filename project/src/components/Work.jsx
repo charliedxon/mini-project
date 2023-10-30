@@ -7,28 +7,28 @@ const data = [
         title: 'Content Creator',
         duration: '3 Years',
         details:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+        'Working as a content creator is a dynamic and creative journey.',
     },
     {
         year: '2017',
         title: 'Google',
         duration: '3 Years',
         details:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+        'Google, a tech giant, has revolutionized the way we access information through its search engine and advertising platforms. It plays a pivotal role in making the internet more accessible and informative.',
     },
     {
         year: '2015',
         title: 'Amazon',
         duration: '2 Years',
         details:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+        'Amazon, the e-commerce behemoth, has transformed online shopping by offering unparalleled convenience and an expansive product selection. It has set the standard for e-commerce and delivery services, shaping how we purchase goods.',
     },
     {
         year: '2012',
         title: 'Facebook',
         duration: '3 Years',
         details:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+        'as a social media giant, Facebook connects billions of people and businesses worldwide, fostering communication and community building. It has become an integral part of modern social interaction.',
     },
 ]
 const Work = () => {
